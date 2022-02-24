@@ -1,6 +1,7 @@
 
 175.Combine Two Tables
 
+```
 select 
 p.firstname as FirstName, 
 p.lastname as LastName,
@@ -10,3 +11,4 @@ from
 person p
 left join address a
 on p.personid = a.personid
+```
