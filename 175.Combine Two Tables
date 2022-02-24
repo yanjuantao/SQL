@@ -1,3 +1,1 @@
-```sql
-select * from accounts
-```
+gem install github-markup
