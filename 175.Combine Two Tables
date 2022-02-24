@@ -1,14 +1,11 @@
+const express = require("express");
+const app = express();
+const port = 3000;
 
-175.Combine Two Tables
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 
-```sql
-select 
-p.firstname as FirstName, 
-p.lastname as LastName,
-a.city as City,
-a.state as State
-from 
-person p
-left join address a
-on p.personid = a.personid
-```
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
