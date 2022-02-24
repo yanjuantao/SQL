@@ -1,1 +1,5 @@
 gem install github-markup
+
+$ bundle
+
+$ gem install commonmarker
